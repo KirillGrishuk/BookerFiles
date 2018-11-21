@@ -28,5 +28,5 @@
 		2. Система запускает файл по введенному пользователем пути.
 		3. Если файл не выбран, система не произведет никаких действий.
 
-
+![Добавить файл](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/ActivitiesDiagrams/add_File.jpg)
 > Written with [StackEdit](https://stackedit.io/).
