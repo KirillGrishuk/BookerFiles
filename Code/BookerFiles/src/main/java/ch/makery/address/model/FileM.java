@@ -1,11 +1,8 @@
 package ch.makery.address.model;
 
-import ch.makery.address.view.MysqlConnect;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class FileM {
@@ -16,11 +13,6 @@ public class FileM {
 	private final SimpleStringProperty Tapping;
 	private final StringProperty path;
 
-	String query = "select  * from mainwin";
-	MysqlConnect mysqlConnect = new MysqlConnect();
-	PreparedStatement statement = mysqlConnect.connect().prepareStatement(query);
-	ResultSet resultSet = statement.executeQuery(query);
-
 	public FileM() throws SQLException {
 		this(null, null);
 	}
@@ -28,7 +20,6 @@ public class FileM {
 	public FileM(String firstName, String lastName) throws SQLException {
 		this.date = new SimpleStringProperty(firstName);
 		this.name = new SimpleStringProperty(lastName);
-
 		this.organization = new SimpleStringProperty();
 		this.Tapping = new SimpleStringProperty();
 		this.path = new SimpleStringProperty();
