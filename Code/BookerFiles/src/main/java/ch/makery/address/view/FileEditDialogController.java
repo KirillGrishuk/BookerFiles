@@ -1,11 +1,15 @@
 package ch.makery.address.view;
 
 import ch.makery.address.model.FileM;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import org.controlsfx.dialog.Dialogs;
 
+import java.io.File;
+import java.io.IOException;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
@@ -26,6 +30,12 @@ public class FileEditDialogController {
     @FXML
     private TextField PathField;
 
+    @FXML
+    private void initialize() {
+
+    }
+    String sputh;
+    String stringofformat = "*";
     String query = "select  * from mainwin";
     MysqlConnect mysqlConnect = new MysqlConnect();
     PreparedStatement statement;
@@ -41,10 +51,6 @@ public class FileEditDialogController {
     private Stage dialogStage;
     private FileM fileM;
     private boolean okClicked = false;
-
-    @FXML
-    private void initialize() {
-    }
 
     private void save(String date,String firma,String name,String content,String file) {
         String sql = "insert into mainwin (" +
@@ -78,15 +84,27 @@ public class FileEditDialogController {
     }
 
     @FXML
+    void ChosePuth(ActionEvent event) throws SQLException, IOException {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("BookerFiles", stringofformat));
+        File file = fileChooser.showOpenDialog(null);
+        if (file != null)
+        {
+            sputh = file.getAbsolutePath();
+            PathField.setText(sputh);
+            DateField.setText(file.getName());
+        }
+    }
+
+    @FXML
     private void handleOk() {
         if (isInputValid()) {
             fileM.setDate(DateField.getText());
             fileM.setName(NameField.getText());
             fileM.setOrganization(OrganizField.getText());
             fileM.setTapping(TapField.getText());
-            fileM.setPath(PathField.getText());
 
-            save(DateField.getText(), NameField.getText(), OrganizField.getText(), TapField.getText(), PathField.getText() );
+            save(DateField.getText(), NameField.getText(), OrganizField.getText(), TapField.getText(), sputh );
 
             okClicked = true;
             dialogStage.close();

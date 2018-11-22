@@ -110,6 +110,7 @@ public class FileOverviewController {
 
 	}
 
+
 	@FXML
 	private void handleDeletePerson() throws SQLException {
 		int selectedIndex = FilesTable.getSelectionModel().getSelectedIndex();
