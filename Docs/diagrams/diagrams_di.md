@@ -5,12 +5,6 @@
 
 1.  Диаграмма вариантов использования
     2.1.  Актеры
-<<<<<<< HEAD
-    2.2.  Варианты использования  
-    2.2.1.  Добавить файл
-    2.2.2.  Удалить файл 
-    2.2.3.  Открыть файл 
-=======
     
     2.2.  Варианты использования  
     
@@ -20,7 +14,14 @@
     
     2.2.3.  Открыть файл 
     
->>>>>>> e0955b4e6977b9bd0a1ca70dea2a95a7f8ee8955
+    2.2.  Варианты использования  
+    
+    2.2.1.  Добавить файл
+    
+    2.2.2.  Удалить файл 
+    
+    2.2.3.  Открыть файл 
+    
 2.  Диаграмма активностей
 3.  Диаграмма последовательности    
 4.  Диаграмма состояний    
@@ -106,6 +107,7 @@
 [![State](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/StateDiagram/OpenFile.JPG)](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/StateDiagram/OpenFile.JPG)
 
 # 5. Class Diagram
+[![classDiagram](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/classDiagram/ClassDiagram.JPG)
 
 # 6. Component and Deployment Diagram
 
