@@ -15,7 +15,6 @@
    
 
 # 1\. Диаграмма вариантов использования <a name = "1"></a>
-![usecase](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/UseCaseDiagram/UseCase.PNG)
   
 ## 1.1\. Описание актеров <a name = "1.1"></a>
 
