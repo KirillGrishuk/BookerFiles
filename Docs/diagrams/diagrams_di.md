@@ -3,7 +3,7 @@
 
  Глоссарий
 
-1.  Диаграмма вариантов использования
+1.  [Диаграмма вариантов использования](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/diagrams_di.md#1)
 
     2.1.  Актеры
     
