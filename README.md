@@ -1,4 +1,3 @@
-# BookerFiles
 
 ### Приложение для хранения бухгалтерских файлов.
 
@@ -8,5 +7,5 @@
 # Содержимое репозитория:
 
 1 [Документация](https://github.com/catherine-yarosh-650501/BookerFiles/tree/master/Docs)  
-1.1 [Спецификация требований](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/Requirements.md)  
-1.2 Проектирование системы
+1.1 [Спецификация требований](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/Requirements.md) 
+1.2 [Проектирование системы](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/diagrams_di.md)
