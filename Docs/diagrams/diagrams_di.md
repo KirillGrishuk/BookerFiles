@@ -75,7 +75,7 @@
 
 ## 2.2\. Диаграмма удаления файла <a name = "2.2"></a>
 ![deletefile](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/ActivitiesDiagrams/delete_File.jpg)
-## 2.3\ Диаграмма открытия файла <a name = "2.3"></a>
+## 2.3\. Диаграмма открытия файла <a name = "2.3"></a>
 ![openfile](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/diagrams/ActivitiesDiagrams/open_file.jpg)
 # 3\. Диаграммы последовательности <a name = "3"></a>
 ## 3.1\. Добавление файла <a name = "3.1"></a>
