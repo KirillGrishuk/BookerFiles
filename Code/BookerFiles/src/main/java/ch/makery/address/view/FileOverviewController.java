@@ -142,22 +142,4 @@ public class FileOverviewController {
 		}
 	}
 
-	@FXML
-	private void handleEditPerson() throws SQLException {
-		FileM selectedPerson = FilesTable.getSelectionModel().getSelectedItem();
-
-		if (selectedPerson != null) {
-			boolean okClicked = mainApp.showPersonEditDialog(selectedPerson);
-			if (okClicked) {
-				showPersonDetails(selectedPerson);
-			}
-
-		} else {
-			Dialogs.create()
-				.title("No Selection")
-				.masthead("No FileM Selected")
-				.message("Please select a person in the table.")
-				.showWarning();
-		}
-	}
 }

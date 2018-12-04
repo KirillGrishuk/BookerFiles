@@ -51,7 +51,6 @@ public class MainApp extends Application {
             namel.add(namef);
             colel++;
         }
-        System.out.println("Колличество файлов --- " + colel);
     }
 
     public MainApp() throws SQLException {
@@ -66,7 +65,7 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) throws SQLException {
 
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("AddressApp");
+        this.primaryStage.setTitle("BookerFiles");
         initRootLayout();
 
         showPersonOverview();
@@ -74,12 +73,9 @@ public class MainApp extends Application {
 
     public void initRootLayout() {
         try {
-            // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("/RootLayout.fxml"));
             rootLayout = (BorderPane) loader.load();
-
-            // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
             primaryStage.show();
@@ -107,7 +103,7 @@ public class MainApp extends Application {
             loader.setLocation(MainApp.class.getResource("/PersonEditDialog.fxml"));
             AnchorPane page = (AnchorPane) loader.load();
             Stage dialogStage = new Stage();
-            dialogStage.setTitle("Edit File");
+            dialogStage.setTitle("Add File");
             dialogStage.initModality(Modality.WINDOW_MODAL);
             dialogStage.initOwner(primaryStage);
             Scene scene = new Scene(page);

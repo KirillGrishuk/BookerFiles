@@ -10,6 +10,9 @@ import org.controlsfx.dialog.Dialogs;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
@@ -35,6 +38,7 @@ public class FileEditDialogController {
 
     }
     String sputh;
+    String dataRes;
     String stringofformat = "*";
     String query = "select  * from mainwin";
     MysqlConnect mysqlConnect = new MysqlConnect();
@@ -75,7 +79,6 @@ public class FileEditDialogController {
 
     public void setFileM(FileM fileM) {
         this.fileM = fileM;
-
         DateField.setText(fileM.getDate());
         NameField.setText(fileM.getName());
         OrganizField.setText(fileM.getOrganization());
@@ -85,14 +88,20 @@ public class FileEditDialogController {
 
     @FXML
     void ChosePuth(ActionEvent event) throws SQLException, IOException {
+        String dataRes;
         FileChooser fileChooser = new FileChooser();
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("BookerFiles", stringofformat));
         File file = fileChooser.showOpenDialog(null);
+        BasicFileAttributes attributes = Files.readAttributes(Paths.get(file.getAbsolutePath()), BasicFileAttributes.class);
         if (file != null)
         {
+            dataRes = String.valueOf(attributes.creationTime());
+            dataRes = dataRes.substring(0, 10);
+            OrganizField.setText(dataRes);
             sputh = file.getAbsolutePath();
             PathField.setText(sputh);
             DateField.setText(file.getName());
+            NameField.setText(dataRes);
         }
     }
 
@@ -103,6 +112,7 @@ public class FileEditDialogController {
             fileM.setName(NameField.getText());
             fileM.setOrganization(OrganizField.getText());
             fileM.setTapping(TapField.getText());
+            fileM.setPath(sputh);
 
             save(DateField.getText(), NameField.getText(), OrganizField.getText(), TapField.getText(), sputh );
 
@@ -122,28 +132,26 @@ public class FileEditDialogController {
         String errorMessage = "";
 
         if (DateField.getText() == null || DateField.getText().length() == 0) {
-            errorMessage += "No valid date!\n";
+            //errorMessage += "No valid date!\n";
+            DateField.setText("No");
         }
         if (NameField.getText() == null || NameField.getText().length() == 0) {
-            errorMessage += "No valid name!\n";
+            //errorMessage += "No valid name!\n";
+            NameField.setText(dataRes);
         }
         if (OrganizField.getText() == null || OrganizField.getText().length() == 0) {
-            errorMessage += "No valid organization!\n";
+            //errorMessage += "No valid organization!\n";
+            OrganizField.setText("No");
         }
 
         if (TapField.getText() == null || TapField.getText().length() == 0) {
-            errorMessage += "No valid Tapping!\n";
-        } /*else {
-            // try to parse the postal code into an int.
-            try {
-                Integer.parseInt(TapField.getText());
-            } catch (NumberFormatException e) {
-                errorMessage += "No valid Tapping (must be an integer)!\n";
-            }
-        }*/
+            //errorMessage += "No valid Mark!\n";
+            TapField.setText("No");
+        }
 
         if (PathField.getText() == null || PathField.getText().length() == 0) {
-            errorMessage += "No valid path!\n";
+            //errorMessage += "No valid path!\n";
+            PathField.setText("No");
         }
 
         if (errorMessage.length() == 0) {

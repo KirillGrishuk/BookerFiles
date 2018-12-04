@@ -17,9 +17,9 @@ public class FileM {
 		this(null, null);
 	}
 
-	public FileM(String firstName, String lastName) throws SQLException {
-		this.date = new SimpleStringProperty(firstName);
-		this.name = new SimpleStringProperty(lastName);
+	public FileM(String date, String name) throws SQLException {
+		this.date = new SimpleStringProperty(date);
+		this.name = new SimpleStringProperty(name);
 		this.organization = new SimpleStringProperty();
 		this.Tapping = new SimpleStringProperty();
 		this.path = new SimpleStringProperty();
@@ -34,7 +34,7 @@ public class FileM {
 	}
 	
 	public StringProperty dateProperty() {
-		return date;
+		return name;
 	}
 
 	public String getName() {
@@ -46,7 +46,7 @@ public class FileM {
 	}
 	
 	public StringProperty nameProperty() {
-		return name;
+		return date;
 	}
 
 	public String getOrganization() {
