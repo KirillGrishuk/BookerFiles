@@ -16,11 +16,6 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/**
- * Dialog to edit details of a fileM.
- *
- * @author Marco Jakob
- */
 public class FileEditDialogController {
     @FXML
     private TextField DateField;

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="AddressApp-Part-3:jar" />
+      <artifact name="BookerFiles:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -21,12 +21,8 @@
       <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="1768">
               <caret line="127" column="36" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
-              <folding>
-                <element signature="e#4459#4460#0" expanded="true" />
-                <element signature="e#4492#4493#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +30,8 @@
       <file leaf-file-name="FileOverviewController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/FileOverviewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="138" column="42" lean-forward="true" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+            <state relative-caret-position="2125">
+              <caret line="138" column="42" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +42,8 @@
       <file leaf-file-name="FileEditDialogController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/FileEditDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,23 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonEditDialog.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/PersonEditDialog.fxml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="PersonOverview.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/PersonOverview.fxml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
       <file leaf-file-name="FileM.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/model/FileM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="e#1510#1511#0" expanded="true" />
                 <element signature="e#1531#1532#0" expanded="true" />
@@ -83,7 +67,7 @@
       <file leaf-file-name="LambdaForm.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/invoke/LambdaForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="21743">
               <caret line="1371" column="23" selection-start-line="1371" selection-start-column="23" selection-end-line="1371" selection-end-column="23" />
             </state>
           </provider>
@@ -92,7 +76,7 @@
       <file leaf-file-name="MysqlConnect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/MysqlConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
+            <state relative-caret-position="391">
               <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -151,6 +135,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,13 +199,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="handleOk&#9;PSI&#9;JAVA://ch.makery.address.view.FileEditDialogController#handleOk&#10;name&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/naming/Name.java&#10;dateProperty&#9;PSI&#9;JAVA://ch.makery.address.model.FileM#dateProperty&#10;nameColumn&#9;PSI&#9;JAVA://ch.makery.address.view.FileOverviewController#nameColumn&#10;DateColumn&#9;PSI&#9;JAVA://ch.makery.address.view.FileOverviewController#DateColumn&#10;nameProperty&#9;PSI&#9;JAVA://ch.makery.address.model.FileM#nameProperty&#10;openfile&#9;PSI&#9;JAVA://ch.makery.address.view.FileOverviewController#openfile&#10;birth&#9;PSI&#9;JAVA://ch.makery.address.view.PersonOverviewController#birthdayLabel&#10;okClicked&#9;PSI&#9;JAVA://ch.makery.address.view.PersonEditDialogController#isOkClicked&#10;showPersonDetails&#9;PSI&#9;JAVA://ch.makery.address.view.PersonOverviewController#showPersonDetails&#10;set&#9;PSI&#9;JAVA://java.util.Set&#10;getPersonData&#9;PSI&#9;JAVA://ch.makery.address.MainApp#getPersonData&#10;setMainApp&#9;PSI&#9;JAVA://ch.makery.address.view.PersonOverviewController#setMainApp&#10;Main&#9;RUN_CONFIGURATION&#9;MainApp&#10;MainApp&#9;PSI&#9;JAVA://ch.makery.address.view.PersonOverviewController#mainApp&#10;PersonOverviewController&#9;FILE&#9;file://D:/study/Kursach/AddressApp-Part-3/src/ch/makery/address/view/PersonOverviewController.java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15357561" />
     <property name="project.structure.side.proportion" value="0.2867036" />
@@ -334,13 +318,22 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.15334421" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
@@ -349,10 +342,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.008156607" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952693" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -378,6 +371,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/MysqlConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/FileEditDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -611,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/util/DateUtil.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/invoke/LambdaForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="21743">
           <caret line="1371" column="23" selection-start-line="1371" selection-start-column="23" selection-end-line="1371" selection-end-column="23" />
         </state>
       </provider>
@@ -625,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/MysqlConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
+        <state relative-caret-position="391">
           <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -635,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/model/FileM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="306">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="e#1510#1511#0" expanded="true" />
             <element signature="e#1531#1532#0" expanded="true" />
@@ -646,27 +659,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="1768">
           <caret line="127" column="36" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
-          <folding>
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4492#4493#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/PersonEditDialog.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/PersonOverview.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/FileOverviewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="138" column="42" lean-forward="true" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+        <state relative-caret-position="2125">
+          <caret line="138" column="42" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -675,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/makery/address/view/FileEditDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -689,11 +690,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>AddressApp-Part-3:jar</last-edited>
+          <last-edited>BookerFiles:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.13869625" />
+                <option value="0.2867036" />
                 <option value="0.5" />
               </list>
             </option>
@@ -737,12 +738,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AddressApp-Part-3</last-edited>
+          <last-edited>BookerFiles</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
