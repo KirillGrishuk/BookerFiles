@@ -9,9 +9,7 @@
 6 [Представление результатов](#pred)
 7 [Выводы](#vivod)
 
-<a name="vvedenie/">
-
- # 1.  Введение 
+ # 1\.  Введение <a name="vvedenie/">
 Данный документ описывает план тестирования системы. Цель тестирования: проверить функциональность и соответствие приложения [требованиям](https://github.com/catherine-yarosh-650501/BookerFiles/blob/master/Docs/Requirements.md).
 
 <a name="object/">
